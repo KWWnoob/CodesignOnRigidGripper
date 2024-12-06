@@ -1,0 +1,17 @@
+mcdp {
+    provides extra_payload [kg]
+    provides workspace [dimensionless]
+    provides grasping_metric [dimensionless]
+    requires cost [USD]
+
+    robotic_arm_dp = instance `robotic_arm
+    gripper_dp = instance `gripper
+    motor_dp = instance `motor
+    material_selection_dp = instance `material_selection
+
+    provided extra_payload + mass_motor required by motor_dp * 4 +  material_mass required by material_selection_dp <= payload provided by robotic_arm_dp
+    provided workspace <= workspace provided by robotic_arm_dp
+    provided grasping_metric <= grasping_metric provided by gripper_dp
+
+    required cost >= material_cost required by material_seection_dp + cost_motor required by motor_dp
+}

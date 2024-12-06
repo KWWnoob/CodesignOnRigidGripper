@@ -1,0 +1,13 @@
+
+catalog {
+  provides minimum_tendon_force [Newton]
+  requires mass_motor [kg]
+  requires cost_motor [USD]
+
+  5 Newton  ↤ imp1 ↦ 0.1kg, 100USD
+  6 Newton  ↤ imp2 ↦ 0.13kg, 70USD
+  4.5 Newton  ↤ imp3 ↦ 0.08kg, 60USD
+  5.3 Newton  ↤ imp4 ↦ 0.6kg, 20USD
+  7 Newton  ↤ imp5 ↦ 0.2kg, 130USD
+  4 Newton  ↤ imp6 ↦ 0.1kg, 120USD
+}

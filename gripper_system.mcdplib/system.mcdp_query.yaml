@@ -1,0 +1,12 @@
+title: Query_1
+description: 'Query for the robotic grasping system model.'
+model: "system"
+query:
+  query_type: FixResMaxFun
+  min_f: 
+    extra_payload: '1000 kg'
+    workspace: '3'
+    grasping_metric: "1000"
+  max_r:
+    cost: '10000000000000000000 USD'
+  optimize_for: [cost]

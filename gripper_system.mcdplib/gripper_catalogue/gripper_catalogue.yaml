@@ -1,0 +1,182 @@
+F: 
+- Newton
+R:
+- cm
+- cm
+- Newton
+implementations:
+  model0:
+    f_max:
+    - 1140.0303565227948 Newton
+    r_min:
+    - 30.0 cm
+    - 210.0 cm
+    - 50 Newton
+  model1:
+    f_max:
+    - 1114.4142407831264 Newton
+    r_min:
+    - 30.0 cm
+    - 257.5 cm
+    - 50 Newton
+  model10:
+    f_max:
+    - 1772.645799891712 Newton
+    r_min:
+    - 45.0 cm
+    - 210.0 cm
+    - 50 Newton
+  model11:
+    f_max:
+    - 1730.8060873967715 Newton
+    r_min:
+    - 45.0 cm
+    - 257.5 cm
+    - 50 Newton
+  model12:
+    f_max:
+    - 1385.8618443207397 Newton
+    r_min:
+    - 45.0 cm
+    - 305.0 cm
+    - 50 Newton
+  model13:
+    f_max:
+    - 1152.5836048643023 Newton
+    r_min:
+    - 45.0 cm
+    - 352.5 cm
+    - 50 Newton
+  model14:
+    f_max:
+    - 992.9008906655208 Newton
+    r_min:
+    - 45.0 cm
+    - 400.0 cm
+    - 50 Newton
+  model15:
+    f_max:
+    - 2093.962352865227 Newton
+    r_min:
+    - 52.5 cm
+    - 210.0 cm
+    - 50 Newton
+  model16:
+    f_max:
+    - 2039.0020107035948 Newton
+    r_min:
+    - 52.5 cm
+    - 257.5 cm
+    - 50 Newton
+  model17:
+    f_max:
+    - 1632.6564176667537 Newton
+    r_min:
+    - 52.5 cm
+    - 305.0 cm
+    - 50 Newton
+  model18:
+    f_max:
+    - 1357.8808454230243 Newton
+    r_min:
+    - 52.5 cm
+    - 352.5 cm
+    - 50 Newton
+  model19:
+    f_max:
+    - 1169.7329400219155 Newton
+    r_min:
+    - 52.5 cm
+    - 400.0 cm
+    - 50 Newton
+  model2:
+    f_max:
+    - 892.2726976287122 Newton
+    r_min:
+    - 30.0 cm
+    - 305.0 cm
+    - 50 Newton
+  model20:
+    f_max:
+    - 2280.0607130455896 Newton
+    r_min:
+    - 60.0 cm
+    - 210.0 cm
+    - 50 Newton
+  model21:
+    f_max:
+    - 2228.828481566253 Newton
+    r_min:
+    - 60.0 cm
+    - 257.5 cm
+    - 50 Newton
+  model22:
+    f_max:
+    - 1784.5453952574244 Newton
+    r_min:
+    - 60.0 cm
+    - 305.0 cm
+    - 50 Newton
+  model23:
+    f_max:
+    - 1483.978247493714 Newton
+    r_min:
+    - 60.0 cm
+    - 352.5 cm
+    - 50 Newton
+  model24:
+    f_max:
+    - 1278.473583905461 Newton
+    r_min:
+    - 60.0 cm
+    - 400.0 cm
+    - 50 Newton
+  model3:
+    f_max:
+    - 741.989123746857 Newton
+    r_min:
+    - 30.0 cm
+    - 352.5 cm
+    - 50 Newton
+  model4:
+    f_max:
+    - 639.2367919527305 Newton
+    r_min:
+    - 30.0 cm
+    - 400.0 cm
+    - 50 Newton
+  model5:
+    f_max:
+    - 1455.725398866664 Newton
+    r_min:
+    - 37.5 cm
+    - 210.0 cm
+    - 50 Newton
+  model6:
+    f_max:
+    - 1422.6101640899494 Newton
+    r_min:
+    - 37.5 cm
+    - 257.5 cm
+    - 50 Newton
+  model7:
+    f_max:
+    - 1139.067270974726 Newton
+    r_min:
+    - 37.5 cm
+    - 305.0 cm
+    - 50 Newton
+  model8:
+    f_max:
+    - 947.28636430558 Newton
+    r_min:
+    - 37.5 cm
+    - 352.5 cm
+    - 50 Newton
+  model9:
+    f_max:
+    - 816.0688413091256 Newton
+    r_min:
+    - 37.5 cm
+    - 400.0 cm
+    - 50 Newton

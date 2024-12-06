@@ -1,0 +1,9 @@
+
+dp {
+  provides grasping_metric [Newton]
+  requires pulley_volume [cm]
+  requires linkage_volume [cm]
+  requires minimum_force [Newton]
+
+  implemented-by yaml resource("gripper_catalogue/gripper_catalogue.yaml")
+}

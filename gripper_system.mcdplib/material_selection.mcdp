@@ -1,0 +1,13 @@
+mcdp {
+    provides pulley_volume [cm]
+    provides linkage_volume [cm]
+    requires material_mass [kg]
+    requires material_cost [USD]
+
+    unit_cost = 70 [USD/cm/cm]
+    unit_mass = 100 [kg/cm/cm]
+
+    material_cost >= pulley_volume * pulley_volume * unit_cost + linkage_volume * unit_mass
+    material_mass >= pulley_volume * pulley_volume * unit_cost + linkage_volume * unit_mass
+
+}

@@ -1,0 +1,13 @@
+
+catalog {
+  provides payload [mass]
+  provides workspace [dimensionless]
+  requires cost [USD]
+
+  4kg, 3  ↤ imp1 ↦ 5600USD
+  5kg, 3  ↤ imp2 ↦ 7000USD
+  7kg, 5  ↤ imp3 ↦ 10000USD
+  2kg, 2  ↤ imp4 ↦ 3000USD
+  4kg, 2  ↤ imp5 ↦ 4000USD
+  10kg,1  ↤ imp6 ↦ 8000USD
+}

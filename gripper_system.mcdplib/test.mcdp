@@ -1,0 +1,6 @@
+mcdp {
+    provides capacity [J]
+    requires mass [g]
+    ρ = 100 kWh / kg # specific_energy
+    required mass ≥ provided capacity / ρ
+}
