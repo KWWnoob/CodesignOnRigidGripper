@@ -26,7 +26,7 @@ This project focuses on the co-design of a tendon-driven robotic gripper. The go
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-repo-url.git](https://github.com/KWWnoob/CodesignOnRigidGripper.git)
+   git clone https://github.com/KWWnoob/CodesignOnRigidGripper.git
    cd tendon-driven-gripper
 2. Install required package
    ```bash
