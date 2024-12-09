@@ -27,4 +27,6 @@ This project focuses on the co-design of a tendon-driven robotic gripper. The go
    ```bash
    git clone https://github.com/your-repo-url.git
    cd tendon-driven-gripper
-2. pip install -r requirements.txt
+2. Install required package
+   ```bash
+  pip install -r requirements.txt
