@@ -11,10 +11,15 @@ This project focuses on the co-design of a tendon-driven robotic gripper. The go
 
 ## Project Structure
 ├── Env_BallGrasping_V3.py     # Script for data generation
+
 ├── csv2yaml.py                # CSV to YAML file converter
+
 ├── FingerModel_V5.py          # Finger modeling utilities
+
 ├── solve_query.py             # Query solver using the MCDP framework
+
 ├── gripper_system.mcdplib     # MCDP library files for optimization
+
 ├── README.md                  # Documentation
 
 ## Installation
