@@ -29,4 +29,4 @@ This project focuses on the co-design of a tendon-driven robotic gripper. The go
    cd tendon-driven-gripper
 2. Install required package
    ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
