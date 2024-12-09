@@ -1,9 +1,32 @@
-
-dp {
-  provides grasping_metric [Newton]
-  requires pulley_volume [cm]
-  requires linkage_volume [cm]
-  requires minimum_force [Newton]
-
-  implemented-by yaml resource("gripper_catalogue/gripper_catalogue.yaml")
+catalog {
+  provides grasping_metric [dimensionless]
+  requires pulley_volume [mm]
+  requires linkage_volume [mm]
+  requires minimum_tendon_force [dimensionless]
+  
+  1140 ↤ model1 ↦ 30 mm, 210 mm, 50
+  1114 ↤ model2 ↦ 30 mm, 257.5 mm, 50
+  892 ↤ model3 ↦ 30 mm, 305 mm, 50
+  742 ↤ model4 ↦ 30 mm, 352.5 mm, 50
+  639 ↤ model5 ↦ 30 mm, 400 mm, 50
+  1456 ↤ model6 ↦ 37.5 mm, 210 mm, 50
+  1423 ↤ model7 ↦ 37.5 mm, 257.5 mm, 50
+  1139 ↤ model8 ↦ 37.5 mm, 305 mm, 50
+  947 ↤ model9 ↦ 37.5 mm, 352.5 mm, 50
+  816 ↤ model10 ↦ 37.5 mm, 400 mm, 50
+  1773 ↤ model11 ↦ 45 mm, 210 mm, 50
+  1731 ↤ model12 ↦ 45 mm, 257.5 mm, 50
+  1386 ↤ model13 ↦ 45 mm, 305 mm, 50
+  1153 ↤ model14 ↦ 45 mm, 352.5 mm, 50
+  993 ↤ model15 ↦ 45 mm, 400 mm, 50
+  2094 ↤ model16 ↦ 52.5 mm, 210 mm, 50
+  2039 ↤ model17 ↦ 52.5 mm, 257.5 mm, 50
+  1633 ↤ model18 ↦ 52.5 mm, 305 mm, 50
+  1358 ↤ model19 ↦ 52.5 mm, 352.5 mm, 50
+  1170 ↤ model20 ↦ 52.5 mm, 400 mm, 50
+  2280 ↤ model21 ↦ 60 mm, 210 mm, 50
+  2229 ↤ model22 ↦ 60 mm, 257.5 mm, 50
+  1785 ↤ model23 ↦ 60 mm, 305 mm, 50
+  1484 ↤ model24 ↦ 60 mm, 352.5 mm, 50
+  1278 ↤ model25 ↦ 60 mm, 400 mm, 50
 }

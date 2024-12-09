@@ -24,8 +24,8 @@ print(f"Number of rows in CSV: {num_rows}")
 
 # Prepare the YAML structure
 yaml_data = {
-    "F": "Newton",
-    "R": ["cm", "cm", "Newton"],
+    "F": "dimensionless",
+    "R": ["mm", "mm", "dimensionless"],
     "implementations": {}
 }
 
@@ -33,8 +33,8 @@ yaml_data = {
 for index, row in csv_data.iterrows():
     model_key = f"model{index}"  # Use a unique string key for each model
     yaml_data["implementations"][model_key] = {
-        "f_max": [f"{float(row['Max Radius'])} Newton"],  # Add unit N to Max Radius
-        "r_min": [f"{float(row['Pulley Sum'])} cm", f"{float(row['Linkage Sum'])} cm", "50 Newton"],  # Add unit cm to Pulley Sum and Linkage Sum
+        "f_max": [f"{float(row['Max Radius'])}"],  # Add unit N to Max Radius
+        "r_min": [f"{float(row['Pulley Sum'])} mm", f"{float(row['Linkage Sum'])} mm", "50"],  # Add unit mm to Pulley Sum and Linkage Sum
     }
 
 # Define the output directory and file path

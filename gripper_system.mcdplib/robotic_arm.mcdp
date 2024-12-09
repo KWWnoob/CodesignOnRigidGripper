@@ -1,6 +1,6 @@
 
 catalog {
-  provides payload [mass]
+  provides payload [kg]
   provides workspace [dimensionless]
   requires cost [USD]
 

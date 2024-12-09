@@ -1,0 +1,11 @@
+title: Query_1
+description: 'Query for the robotic grasping system model.'
+model: "`motor"
+query:
+  query_type: FixResMaxFun
+  min_f: 
+    minimum_tendon_force: '5'
+  max_r:
+    mass_motor : '0.5kg'
+    cost_motor : '100USD'
+  optimize_for: [minimum_tendon_force]
