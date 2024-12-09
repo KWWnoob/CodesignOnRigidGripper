@@ -1,7 +1,6 @@
 # Co-Design on Tendon-Driven Gripper  
 ### By Kiwan Wong
-![Schematic_CodesignDiagram](https://github.com/user-attachments/assets/f7ca44de-d0ee-4b0b-92e2-b7a6d0e5de81)
-
+<img src="https://github.com/user-attachments/assets/f7ca44de-d0ee-4b0b-92e2-b7a6d0e5de81" alt="Schematic_CodesignDiagram" width="500">
 
 ## Project Description
 This project focuses on the co-design of a tendon-driven robotic gripper. The goal is to optimize the gripper's performance by balancing functional requirements such as grasping ability, payload, and workspace with cost constraints. The schematic diagram illustrates how design elements like robotic arm selection, material properties, and motor characteristics interact to achieve these goals.
