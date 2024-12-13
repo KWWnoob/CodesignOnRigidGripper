@@ -9,6 +9,7 @@ print(f"Container ID: {container_id}")
 query = "system"
 # subprocess.run(f"docker exec {container_id} mcdp-solve-query --imp {query}", shell=True, check=True)
 
+# Call your requirements
 subprocess.run(f"docker exec {container_id} mcdp-solve --imp {query} '<10 kg, 3 , 900>'", shell=True, check=True)
 
 
