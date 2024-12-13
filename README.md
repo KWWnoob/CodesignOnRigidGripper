@@ -5,6 +5,8 @@
 ## Project Description
 This project focuses on the co-design of a tendon-driven robotic gripper. The goal is to optimize the gripper's performance by balancing functional requirements such as grasping ability, payload, and workspace with cost constraints. The schematic diagram illustrates how design elements like gripper dimensions, robotic arm selection, material properties, and motor characteristics interact to achieve these goals.
 
+One can find ideal robotic system settings based on the code, search over a large design space, as well as providing pareto front.
+
 ## Key Features
 - **Grasping Simulation**: Uses `Env_BallGrasping_V3.py` to generate data for performance analysis.
 - **Data Transformation**: Converts CSV files to YAML format using `csv2yaml.py` for compatibility with the MCDP framework.
